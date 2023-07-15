@@ -1,0 +1,459 @@
+.city .granadacont {
+    position: absolute;
+    width: inherit;
+    opacity: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+  }
+  .city .granadacont:first-child {
+    opacity: 1;
+  }
+  .city .granadacont:target {
+    opacity: 1;
+  }
+  
+  #switch-granada ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .granada ul a {
+    text-decoration: none;
+  }
+  .granada li {
+    list-style: none;
+    color: var(--secundary-bg-color);
+    margin-left: -1.2rem;
+  }
+  .granada li::before {
+    content: "•";
+    display: flex;
+    font-size: 22px;
+  }
+  .granada li.blanco {
+    color: var(--white-color);
+  }
+  .granada li.rosa {
+    color: var(--tertiary-color);
+  }
+  .granada li.rojo {
+    color: var(--secundary-bg-color);
+  }
+  
+  #grd1 {
+    display: block;
+  }
+  #grd2 {
+    display: none;
+  }
+  #grd3 {
+    display: none;
+  }
+  #grd4 {
+    display: none;
+  }
+  #grd5 {
+    display: none;
+  }
+  
+  #grd1 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #grd1 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  
+  #grd1 .photo div {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  #grd1 .photo div img {
+    display: flex;
+    margin: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .granadafoto1 img {
+    border-radius: 1vh 0 0 1vh;
+    -webkit-border-radius: 1vh 0 0 1vh;
+    -moz-border-radius: 1vh 0 0 1vh;
+    -ms-border-radius: 1vh 0 0 1vh;
+    -o-border-radius: 1vh 0 0 1vh;
+  }
+  .photo .granadafoto3 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .granadafoto1 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff, 0vh .2vh 1vh #ffffff;
+  }
+  .photo .granadafoto2 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .granadafoto3 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  #grd1 .photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.1vh;
+    grid-template-areas: "foto1 foto2 foto3";
+  }
+  #grd1 .photo .granadafoto1 {
+    grid-area: foto1;
+  }
+  #grd1 .photo .granadafoto2 {
+    grid-area: foto2;
+  }
+  #grd1 .photo .granadafoto3 {
+    grid-area: foto3;
+  }
+  
+  #grd2 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #grd2 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  
+  #grd2 .photo div {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  #grd2 .photo div img {
+    display: flex;
+    margin: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .granadafoto4 img {
+    border-radius: 1vh 0 0 1vh;
+    -webkit-border-radius: 1vh 0 0 1vh;
+    -moz-border-radius: 1vh 0 0 1vh;
+    -ms-border-radius: 1vh 0 0 1vh;
+    -o-border-radius: 1vh 0 0 1vh;
+  }
+  .photo .granadafoto6 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .granadafoto4 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff, 0vh .2vh 1vh #ffffff;
+  }
+  .photo .granadafoto5 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .granadafoto6 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  #grd2 .photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.1vh;
+    grid-template-areas: "foto4 foto5 foto6";
+  }
+  #grd2 .photo .granadafoto4 {
+    grid-area: foto4;
+  }
+  #grd2 .photo .granadafoto5 {
+    grid-area: foto5;
+  }
+  #grd2 .photo .granadafoto6 {
+    grid-area: foto6;
+  }
+  
+  #grd3 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #grd3 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  
+  #grd3 .photo div {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  #grd3 .photo div img {
+    display: flex;
+    margin: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .granadafoto7 img {
+    border-radius: 1vh 0 0 1vh;
+    -webkit-border-radius: 1vh 0 0 1vh;
+    -moz-border-radius: 1vh 0 0 1vh;
+    -ms-border-radius: 1vh 0 0 1vh;
+    -o-border-radius: 1vh 0 0 1vh;
+  }
+  .photo .granadafoto9 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .granadafoto7 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff, 0vh .2vh 1vh #ffffff;
+  }
+  .photo .granadafoto8 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .granadafoto9 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  #grd3 .photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.1vh;
+    grid-template-areas: "foto7 foto8 foto9";
+  }
+  #grd3 .photo .granadafoto7 {
+    grid-area: foto7;
+  }
+  #grd3 .photo .granadafoto8 {
+    grid-area: foto8;
+  }
+  #grd3 .photo .granadafoto9 {
+    grid-area: foto9;
+  }
+  
+  #grd4 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #grd4 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  
+  #grd4 .photo div {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  #grd4 .photo div img {
+    display: flex;
+    margin: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .granadafoto10 img {
+    border-radius: 1vh 0 0 1vh;
+    -webkit-border-radius: 1vh 0 0 1vh;
+    -moz-border-radius: 1vh 0 0 1vh;
+    -ms-border-radius: 1vh 0 0 1vh;
+    -o-border-radius: 1vh 0 0 1vh;
+  }
+  .photo .granadafoto12 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .granadafoto10 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff, 0vh .2vh 1vh #ffffff;
+  }
+  .photo .granadafoto11 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .granadafoto12 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  #grd4 .photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.1vh;
+    grid-template-areas: "foto10 foto11 foto12";
+  }
+  #grd4 .photo .granadafoto10 {
+    grid-area: foto10;
+  }
+  #grd4 .photo .granadafoto11 {
+    grid-area: foto11;
+  }
+  #grd4 .photo .granadafoto12 {
+    grid-area: foto12;
+  }
+  
+  #grd5 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #grd5 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  
+  #grd5 .photo div {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  #grd5 .photo div img {
+    display: flex;
+    margin: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .granadafoto13 img {
+    border-radius: 1vh 0 0 1vh;
+    -webkit-border-radius: 1vh 0 0 1vh;
+    -moz-border-radius: 1vh 0 0 1vh;
+    -ms-border-radius: 1vh 0 0 1vh;
+    -o-border-radius: 1vh 0 0 1vh;
+  }
+  .photo .granadafoto15 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .granadafoto13 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff, 0vh .2vh 1vh #ffffff;
+  }
+  .photo .granadafoto14 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .granadafoto15 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  #grd5 .photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.1vh;
+    grid-template-areas: "foto13 foto14 foto15";
+  }
+  #grd5 .photo .granadafoto13 {
+    grid-area: foto13;
+  }
+  #grd5 .photo .granadafoto14 {
+    grid-area: foto14;
+  }
+  #grd5 .photo .granadafoto15 {
+    grid-area: foto15;
+  }

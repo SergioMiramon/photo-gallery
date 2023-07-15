@@ -1,0 +1,53 @@
+/*CABECERA*/
+header {
+  width: 100%;
+  height: 4vh;
+  min-height: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  width: 2.5vh;
+  max-width: 750px;
+  margin-top: 0.55vh;
+  height: 2.5vh;
+  background: transparent;
+  margin-left: 0.75vh;
+}
+header .enlaces {
+  display: flex;
+  height: 100%;
+  padding-left: 1.5vh;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+/* .enlaces img {
+      width: 20px;
+      height: 20px;
+    } */
+header .enlaces a {
+  display: flex;
+  border-bottom: 1px solid transparent;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 1.5vh;
+  text-decoration: transparent;
+  margin-inline-end: 10px;
+}
+header .enlaces a:hover,
+.active {
+  opacity: 0.6;
+  transition: 0.4s all;
+  -webkit-transition: 0.4s all;
+  -moz-transition: 0.4s all;
+  -ms-transition: 0.4s all;
+  -o-transition: 0.4s all;
+}

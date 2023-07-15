@@ -1,0 +1,242 @@
+/*BARCELONA CONT*/
+  
+.city .barcelonacont {
+    position: absolute;
+    width: inherit;
+    opacity: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+  }
+  .city .barcelonacont:first-child {
+    opacity: 1;
+  }
+  .city .barcelonacont:target {
+    opacity: 1;
+  }
+  
+  #switch-barcelona ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .barcelona ul a {
+    text-decoration: none;
+  }
+  .barcelona li {
+    list-style: none;
+    color: var(--secundary-bg-color);
+    margin-left: -1.2rem;
+  }
+  .barcelona li::before {
+    content: "•";
+    display: flex;
+    font-size: 22px;
+  }
+  .barcelona li.blanco {
+    color: var(--white-color);
+  }
+  .barcelona li.rosa {
+    color: var(--tertiary-color);
+  }
+  .barcelona li.rojo {
+    color: var(--secundary-bg-color);
+  }
+  
+  #bcn1 {
+    display: block;
+  }
+  #bcn2 {
+    display: none;
+  }
+  #bcn1 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #bcn1 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  #bcn1 .photo div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #bcn1 .photo div img {
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .barcelonafoto1 img {
+    border-radius: 1vh 0 0 0;
+    -webkit-border-radius: 1vh 0 0 0;
+    -moz-border-radius: 1vh 0 0 0;
+    -ms-border-radius: 1vh 0 0 0;
+    -o-border-radius: 1vh 0 0 0;
+  }
+  .photo .barcelonafoto2 img {
+    border-radius: 0  0 0 1vh;
+    -webkit-border-radius: 0  0 0 1vh;
+    -moz-border-radius: 0  0 0 1vh;
+    -ms-border-radius: 0  0 0 1vh;
+    -o-border-radius: 0  0 0 1vh;
+  }
+  .photo .barcelonafoto4 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .barcelonafoto1 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff;
+  }
+  .photo .barcelonafoto2 img:hover{
+    box-shadow:  -.2vh .2vh 1vh #ffffff;
+  }
+  .photo .barcelonafoto3 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .barcelonafoto4 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  
+  #bcn1 .photo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 50%;
+    gap: 0.1vh;
+    grid-template-areas:
+      "foto1 foto1 foto3 foto4"
+      "foto2 foto2 foto3 foto4";
+  }
+  
+  #bcn1 .photo .barcelonafoto1 {
+    grid-area: foto1;
+  }
+  #bcn1 .photo .barcelonafoto2 {
+    grid-area: foto2;
+  }
+  #bcn1 .photo .barcelonafoto3 {
+    grid-area: foto3;
+  }
+  #bcn1 .photo .barcelonafoto4 {
+    grid-area: foto4;
+  }
+  
+  #bcn2 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #bcn2 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  #bcn2 .photo div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #bcn2 .photo div img {
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .barcelonafoto5 img {
+    border-radius: 1vh 0 0 0;
+    -webkit-border-radius: 1vh 0 0 0;
+    -moz-border-radius: 1vh 0 0 0;
+    -ms-border-radius: 1vh 0 0 0;
+    -o-border-radius: 1vh 0 0 0;
+  }
+  .photo .barcelonafoto6 img {
+    border-radius: 0  0 0 1vh;
+    -webkit-border-radius: 0  0 0 1vh;
+    -moz-border-radius: 0  0 0 1vh;
+    -ms-border-radius: 0  0 0 1vh;
+    -o-border-radius: 0  0 0 1vh;
+  }
+  .photo .barcelonafoto8 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .barcelonafoto5 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff;
+  }
+  .photo .barcelonafoto6 img:hover{
+    box-shadow:  -.2vh .2vh 1vh #ffffff;
+  }
+  .photo .barcelonafoto7 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .barcelonafoto8 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  #bcn2 .photo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 50%;
+    gap: 0.1vh;
+    grid-template-areas:
+      "foto5 foto5 foto7 foto8"
+      "foto6 foto6 foto7 foto8";
+  }
+  
+  #bcn2 .photo .barcelonafoto5 {
+    grid-area: foto5;
+  }
+  #bcn2 .photo .barcelonafoto6 {
+    grid-area: foto6;
+  }
+  #bcn2 .photo .barcelonafoto7 {
+    grid-area: foto7;
+  }
+  #bcn2 .photo .barcelonafoto8 {
+    grid-area: foto8;
+  }

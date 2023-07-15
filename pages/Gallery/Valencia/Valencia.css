@@ -1,0 +1,294 @@
+/*VALENCIA CONT*/
+.city .valenciacont {
+    position: absolute;
+    width: inherit;
+    opacity: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+  }
+  .city .valenciacont:first-child {
+    opacity: 1;
+  }
+  .city .valenciacont:target {
+    opacity: 1;
+  }
+  
+  #switch-valencia ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .valencia ul a {
+    text-decoration: none;
+  }
+  .valencia li {
+    list-style: none;
+    color: var(--secundary-bg-color);
+    margin-left: -1.2rem;
+  }
+  .valencia li::before {
+    content: "•";
+    display: flex;
+    font-size: 22px;
+  }
+  .valencia li.blanco {
+    color: var(--white-color);
+  }
+  .valencia li.rosa {
+    color: var(--tertiary-color);
+  }
+  .valencia li.rojo {
+    color: var(--secundary-bg-color);
+  }
+  
+  #vlc1 {
+    display: block;
+  }
+  #vlc2 {
+    display: none;
+  }
+  #vlc3 {
+    display: none;
+  }
+  
+  #vlc1 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #vlc1 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  
+  #vlc1 .photo div {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  #vlc1 .photo div img {
+    display: flex;
+    margin: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .valenciafoto1 img {
+    border-radius: 1vh 0 0 1vh;
+    -webkit-border-radius: 1vh 0 0 1vh;
+    -moz-border-radius: 1vh 0 0 1vh;
+    -ms-border-radius: 1vh 0 0 1vh;
+    -o-border-radius: 1vh 0 0 1vh;
+  }
+  .photo .valenciafoto3 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .valenciafoto1 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff, 0vh .2vh 1vh #ffffff;
+  }
+  .photo .valenciafoto2 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .valenciafoto3 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  #vlc1 .photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.1vh;
+    grid-template-areas: "foto1 foto2 foto3";
+  }
+  #vlc1 .photo .valenciafoto1 {
+    grid-area: foto1;
+  }
+  #vlc1 .photo .valenciafoto2 {
+    grid-area: foto2;
+  }
+  #vlc1 .photo .valenciafoto3 {
+    grid-area: foto3;
+  }
+  
+  #vlc2 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #vlc2 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  
+  #vlc2 .photo div {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  #vlc2 .photo div img {
+    display: flex;
+    margin: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .valenciafoto4 img {
+    border-radius: 1vh 0 0 1vh;
+    -webkit-border-radius: 1vh 0 0 1vh;
+    -moz-border-radius: 1vh 0 0 1vh;
+    -ms-border-radius: 1vh 0 0 1vh;
+    -o-border-radius: 1vh 0 0 1vh;
+  }
+  .photo .valenciafoto6 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .valenciafoto4 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff, 0vh .2vh 1vh #ffffff;
+  }
+  .photo .valenciafoto5 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .valenciafoto6 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  #vlc2 .photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.1vh;
+    grid-template-areas: "foto4 foto5 foto6";
+  }
+  #vlc2 .photo .valenciafoto4 {
+    grid-area: foto4;
+  }
+  #vlc2 .photo .valenciafoto5 {
+    grid-area: foto5;
+  }
+  #vlc2 .photo .valenciafoto6 {
+    grid-area: foto6;
+  }
+  
+  #vlc3 {
+    margin-top: 30px;
+    outline: 0.2vh solid #ffffff;
+    width: 70vw;
+    max-width: inherit;
+    height: 70vh;
+    margin: 0 0;
+  }
+  
+  #vlc3 .photo {
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.2vh);
+  }
+  
+  #vlc3 .photo div {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  #vlc3 .photo div img {
+    display: flex;
+    margin: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    min-height: fit-content;
+  }
+  
+  .photo .valenciafoto7 img {
+    border-radius: 1vh 0 0 1vh;
+    -webkit-border-radius: 1vh 0 0 1vh;
+    -moz-border-radius: 1vh 0 0 1vh;
+    -ms-border-radius: 1vh 0 0 1vh;
+    -o-border-radius: 1vh 0 0 1vh;
+  }
+  .photo .valenciafoto9 img {
+    border-radius: 0 1vh 1vh 0;
+    -webkit-border-radius: 0 1vh 1vh 0;
+    -moz-border-radius: 0 1vh 1vh 0;
+    -ms-border-radius: 0 1vh 1vh 0;
+    -o-border-radius: 0 1vh 1vh 0;
+  }
+  
+  .photo .valenciafoto7 img:hover{
+    box-shadow:  -.2vh -.2vh 1vh #ffffff, 0vh .2vh 1vh #ffffff;
+  }
+  .photo .valenciafoto8 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, 0vh -.2vh 1vh #ffffff;
+  }
+  .photo .valenciafoto9 img:hover{
+    box-shadow:  0vh .2vh 1vh #ffffff, .2vh .2vh 1vh #ffffff;
+  }
+  
+  #vlc3 .photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.1vh;
+    grid-template-areas: "foto7 foto8 foto9";
+  }
+  #vlc3 .photo .valenciafoto7 {
+    grid-area: foto7;
+  }
+  #vlc3 .photo .valenciafoto8 {
+    grid-area: foto8;
+  }
+  #vlc3 .photo .valenciafoto9 {
+    grid-area: foto9;
+  }
