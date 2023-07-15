@@ -5,15 +5,15 @@ export const templateGranada = () => {
     <div id="grd1" class="granadacont">
         <div class="photo">
         <div class="granadafoto1">
-            <img src="./assets/images/galeria/granadafoto1.jpg" alt="catedral de granada" data-img-show="0">
+            <img src="./public/assets/images/galeria/granadafoto1.jpg" alt="catedral de granada" data-img-show="0">
             <p>CATEDRAL DE GRANADA</p>
         </div>
         <div class="granadafoto2">
-            <img src="./assets/images/galeria/granadafoto2.jpg" alt="catedral de granada" data-img-show="1">
+            <img src="./public/assets/images/galeria/granadafoto2.jpg" alt="catedral de granada" data-img-show="1">
             <p>CATEDRAL DE GRANADA</p>
         </div>
         <div class="granadafoto3">
-            <img src="./assets/images/galeria/granadafoto3.jpg" alt="catedral de granada" data-img-show="2">
+            <img src="./public/assets/images/galeria/granadafoto3.jpg" alt="catedral de granada" data-img-show="2">
             <p>CATEDRAL DE GRANADA</p>
         </div>                       
         </div>
@@ -21,15 +21,15 @@ export const templateGranada = () => {
     <div id="grd2" class="granadacont">
         <div class="photo">
         <div class="granadafoto4">
-            <img src="./assets/images/galeria/granadafoto4.jpg" alt="palacio de carlos v" data-img-show="3">
+            <img src="./public/assets/images/galeria/granadafoto4.jpg" alt="palacio de carlos v" data-img-show="3">
             <p>PALACIO DE CARLOS V</p>
         </div>
         <div class="granadafoto5">
-            <img src="./assets/images/galeria/granadafoto5.jpg" alt="palacio de carlos v" data-img-show="4">
+            <img src="./public/assets/images/galeria/granadafoto5.jpg" alt="palacio de carlos v" data-img-show="4">
             <p>PALACIO DE CARLOS V</p>
         </div>
         <div class="granadafoto6">
-            <img src="./assets/images/galeria/granadafoto6.jpg" alt="palacio de carlos v" data-img-show="5">
+            <img src="./public/assets/images/galeria/granadafoto6.jpg" alt="palacio de carlos v" data-img-show="5">
             <p>PALACIO DE CARLOS V</p>
         </div>
         </div>
@@ -37,15 +37,15 @@ export const templateGranada = () => {
     <div id="grd3" class="granadacont">
         <div class="photo">
         <div class="granadafoto7">
-            <img src="./assets/images/galeria/granadafoto7.jpg" alt="patio de comares" data-img-show="6">
+            <img src="./public/assets/images/galeria/granadafoto7.jpg" alt="patio de comares" data-img-show="6">
             <p>PATIO DE COMARES</p>
         </div>
         <div class="granadafoto8">
-            <img src="./assets/images/galeria/granadafoto8.jpg" alt="patio de comares" data-img-show="7">
+            <img src="./public/assets/images/galeria/granadafoto8.jpg" alt="patio de comares" data-img-show="7">
             <p>PATIO DE COMARES</p>
         </div>
         <div class="granadafoto9">
-            <img src="./assets/images/galeria/granadafoto9.jpg" alt="patio de comares" data-img-show="8">
+            <img src="./public/assets/images/galeria/granadafoto9.jpg" alt="patio de comares" data-img-show="8">
             <p>PATIO DE COMARES</p>
         </div>
         </div>
@@ -53,15 +53,15 @@ export const templateGranada = () => {
     <div id="grd4" class="granadacont">
         <div class="photo">
         <div class="granadafoto10">
-            <img src="./assets/images/galeria/granadafoto10.jpg" alt="patio de comares" data-img-show="9">
+            <img src="./public/assets/images/galeria/granadafoto10.jpg" alt="patio de comares" data-img-show="9">
             <p>PATIO DE COMARES</p>
         </div>
         <div class="granadafoto11">
-            <img src="./assets/images/galeria/granadafoto11.jpg" alt="generalife" data-img-show="10">
+            <img src="./public/assets/images/galeria/granadafoto11.jpg" alt="generalife" data-img-show="10">
             <p>GENERALIFE</p>
         </div>
         <div class="granadafoto12">
-            <img src="./assets/images/galeria/granadafoto12.jpg" alt="iglesia de san nicolás" data-img-show="11">
+            <img src="./public/assets/images/galeria/granadafoto12.jpg" alt="iglesia de san nicolás" data-img-show="11">
             <p>IGLESIA DE SAN NICOLÁS</p>
         </div>
         </div>
@@ -69,15 +69,15 @@ export const templateGranada = () => {
     <div id="grd5" class="granadacont">
         <div class="photo">
         <div class="granadafoto13">
-            <img src="./assets/images/galeria/granadafoto13.jpg" alt="iglesia de san nicolás" data-img-show="12">
+            <img src="./public/assets/images/galeria/granadafoto13.jpg" alt="iglesia de san nicolás" data-img-show="12">
             <p>ALHAMBRA</p>
         </div>
         <div class="granadafoto14">
-            <img src="./assets/images/galeria/granadafoto14.jpg" alt="alhambra" data-img-show="13">
+            <img src="./public/assets/images/galeria/granadafoto14.jpg" alt="alhambra" data-img-show="13">
             <p>IGLESIA DE SAN NICOLÁS</p>
         </div>
         <div class="granadafoto15">
-            <img src="./assets/images/galeria/granadafoto15.jpg" alt="alhambra" data-img-show="14">
+            <img src="./public/assets/images/galeria/granadafoto15.jpg" alt="alhambra" data-img-show="14">
             <p>ALHAMBRA</p>
         </div>
         </div>
