@@ -157,7 +157,7 @@ const template = () => {
 }
 
 
-const Gallery = () => {
+export const Gallery = () => {
     document.querySelector("main").innerHTML = template();
 
     /*Switch City*/
@@ -297,7 +297,7 @@ const Gallery = () => {
     
 }
 
-export default Gallery();
+// export default Gallery();
 
  
 document.addEventListener('DOMContentLoaded', function () {

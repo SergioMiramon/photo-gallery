@@ -11,8 +11,8 @@ const template = () => {
     `;
 }
 
-const Header = () => {
+export const Header = () => {
     document.querySelector("header").innerHTML = template();
 }
 
-export default Header();
+// export default Header();
