@@ -13,14 +13,14 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header .logo {
-  width: 2.5vh;
+/* header .logo {
+  width: 2.3vh;
   max-width: 750px;
   margin-top: 0.55vh;
-  height: 2.5vh;
-  background: transparent;
+  height: 2.3vh;
+  max-height: 750px;
   margin-left: 0.75vh;
-}
+} */
 header .enlaces {
   display: flex;
   height: 100%;
@@ -29,10 +29,17 @@ header .enlaces {
   align-items: center;
   list-style: none;
 }
-/* .enlaces img {
-      width: 20px;
-      height: 20px;
-    } */
+
+.enlaces li{
+  position: fixed;
+  right: 0;
+}
+.enlaces img {
+  width: 2.3vh;
+  max-width: 750px;
+  height: 2.3vh;
+  max-height: 750px;
+}
 header .enlaces a {
   display: flex;
   border-bottom: 1px solid transparent;
