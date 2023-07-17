@@ -5,19 +5,19 @@ export const templateBarcelona = () => {
     <div id="bcn1" class="barcelonacont">
         <div class="photo">
             <div class="barcelonafoto1">
-                <img src="./assets/images/galeria/barcelonafoto1.jpg" alt="mirador de l'alcalde" data-img-show="0">
+                <img src="/assets/images/galeria/barcelonafoto1.jpg" alt="mirador de l'alcalde" data-img-show="0">
                 <p>MIRADOR DE L'ALCALDE</p>
             </div>
             <div class="barcelonafoto2">
-                <img src="./assets/images/galeria/barcelonafoto2.jpg" alt="bunkers del carmel" data-img-show="1">
+                <img src="/assets/images/galeria/barcelonafoto2.jpg" alt="bunkers del carmel" data-img-show="1">
                 <p>BUNKERS DEL CARMEL</p>
             </div>
             <div class="barcelonafoto3">
-                <img src="./assets/images/galeria/barcelonafoto3.jpg" alt="mirador de l'alcalde" data-img-show="2">
+                <img src="/assets/images/galeria/barcelonafoto3.jpg" alt="mirador de l'alcalde" data-img-show="2">
                 <p>MIRADOR DE L'ALCALDE</p>
             </div>
             <div class="barcelonafoto4">
-                <img src="./assets/images/galeria/barcelonafoto4.jpg" alt="mirador de l'alcalde" data-img-show="3">
+                <img src="/assets/images/galeria/barcelonafoto4.jpg" alt="mirador de l'alcalde" data-img-show="3">
                 <p>MIRADOR DE L'ALCALDE</p>
             </div>
         </div>
@@ -25,19 +25,19 @@ export const templateBarcelona = () => {
     <div id="bcn2" class="barcelonacont">
         <div class="photo">
             <div class="barcelonafoto5">
-                <img src="./assets/images/galeria/barcelonafoto5.jpg" alt="mirador de l'alcalde" data-img-show="4">
+                <img src="/assets/images/galeria/barcelonafoto5.jpg" alt="mirador de l'alcalde" data-img-show="4">
                 <p>MIRADOR DE L'ALCALDE</p>
             </div>
             <div class="barcelonafoto6">
-                <img src="./assets/images/galeria/barcelonafoto6.jpg" alt="mirador de l'alcalde" data-img-show="5">
+                <img src="/assets/images/galeria/barcelonafoto6.jpg" alt="mirador de l'alcalde" data-img-show="5">
                 <p>MIRADOR DE L'ALCALDE</p>
             </div>
             <div class="barcelonafoto7">
-                <img src="./assets/images/galeria/barcelonafoto7.jpg" alt="mirador de l'alcalde" data-img-show="6">
+                <img src="/assets/images/galeria/barcelonafoto7.jpg" alt="mirador de l'alcalde" data-img-show="6">
                 <p>MIRADOR DE L'ALCALDE</p>
             </div>
             <div class="barcelonafoto8">
-                <img src="./assets/images/galeria/barcelonafoto8.jpg" alt="mirador de l'alcalde" data-img-show="7">
+                <img src="/assets/images/galeria/barcelonafoto8.jpg" alt="mirador de l'alcalde" data-img-show="7">
                 <p>MIRADOR DE L'ALCALDE</p>
             </div>
         </div>
