@@ -23,43 +23,6 @@ import {
 } from "./Granada/Granada";
 
 
-// const overlay = () => {
-//     return `
-//     <div class="overlay_mad">
-//         <div class="slideshow_mad">
-//             <span class="btn_close_mad">&times;</span>
-//             <div class="btn left_mad"> <i class="arrows icon-arrow-left2"></i></div>
-//             <div class="btn right_mad"> <i class="arrows icon-arrow-right2"></i></div>
-//             <img src="" alt="" id="img_slideshow">
-//         </div>
-//     </div>
-//     <div class="overlay_bcn">
-//         <div class="slideshow_bcn">
-//             <span class="btn_close_bcn">&times;</span>
-//             <div class="btn left_bcn"> <i class="arrows icon-arrow-left2"></i></div>
-//             <div class="btn right_bcn"> <i class="arrows icon-arrow-right2"></i></div>
-//             <img src="" alt="" id="img_slideshow">
-//         </div>
-//     </div>
-//     <div class="overlay_vlc">
-//         <div class="slideshow_vlc">
-//             <span class="btn_close_vlc">&times;</span>
-//             <div class="btn left_vlc"> <i class="arrows icon-arrow-left2"></i></div>
-//             <div class="btn right_vlc"> <i class="arrows icon-arrow-right2"></i></div>
-//             <img src="" alt="" id="img_slideshow">
-//         </div>
-//     </div>
-//     <div class="overlay_grd">
-//         <div class="slideshow_grd">
-//             <span class="btn_close_grd">&times;</span>
-//             <div class="btn left_grd"> <i class="arrows icon-arrow-left2"></i></div>
-//             <div class="btn right_grd"> <i class="arrows icon-arrow-right2"></i></div>
-//             <img src="" alt="" id="img_slideshow">
-//         </div>
-//     </div>
-//     `;
-// }
-
 const template = () => {
     return `
     <div class="overlay_mad">
