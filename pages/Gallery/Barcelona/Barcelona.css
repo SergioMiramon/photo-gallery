@@ -76,7 +76,6 @@
   #bcn1 .photo div img {
     display: flex;
     background-repeat: no-repeat;
-    background-attachment: contain;
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -172,7 +171,6 @@
   #bcn2 .photo div img {
     display: flex;
     background-repeat: no-repeat;
-    background-attachment: contain;
     background-size: cover;
     background-position: center;
     justify-content: center;
