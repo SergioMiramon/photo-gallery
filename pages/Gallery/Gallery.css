@@ -251,24 +251,18 @@
   }
   
   /*MAIN*/
+
   section {
-    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 8vh;
+    margin-top: 4vh;
   }
   .galeria {
     display: grid;
     grid-auto-flow: row;
     background-color: transparent;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-  
-    /* width: 70vw; */
   }
   
   .galeria #espana h1{
