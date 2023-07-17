@@ -5,15 +5,15 @@ export const templateValencia = () => {
     <div id="vlc1" class="valenciacont">
         <div class="photo">
             <div class="valenciafoto1">
-                <img src="/assets/images/galeria/valenciafoto1.jpg" alt="ciutat de les arts i les ciènces" data-img-show="0">
+                <img src="/assets/images/galeria/valenciafoto1.jpeg" alt="ciutat de les arts i les ciènces" data-img-show="0">
                 <p>CIUTAT DE LES ARTS I LES CIÈNCIES</p>
             </div>
             <div class="valenciafoto2">
-                <img src="/assets/images/galeria/valenciafoto2.jpg" alt="peñiscola" data-img-show="1">
+                <img src="/assets/images/galeria/valenciafoto2.jpeg" alt="peñiscola" data-img-show="1">
                 <p>PEÑISCOLA</p>
             </div>
             <div class="valenciafoto3">
-                <img src="/assets/images/galeria/valenciafoto3.jpg" alt="parque nacional de la albufera" data-img-show="2">
+                <img src="/assets/images/galeria/valenciafoto3.jpeg" alt="parque nacional de la albufera" data-img-show="2">
                 <p>PARQUE NACIONAL DE LA ALBUFERA</p>
             </div>
         </div>
