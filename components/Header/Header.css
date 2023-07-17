@@ -58,6 +58,6 @@ header .enlaces a:hover,
   -ms-transition: 0.2s all;
   -o-transition: 0.2s all;
 }
-header .enlaces img:hover{
+header .enlaces #github img:hover{
   content: url(/public/assets/images/all/github.png);  
 }
