@@ -5,15 +5,15 @@ export const templateValencia = () => {
     <div id="vlc1" class="valenciacont">
         <div class="photo">
             <div class="valenciafoto1">
-                <img src="./public/assets/images/galeria/valenciafoto1.jpg" alt="ciutat de les arts i les ciènces" data-img-show="0">
+                <img src="/public/assets/images/galeria/valenciafoto1.jpg" alt="ciutat de les arts i les ciènces" data-img-show="0">
                 <p>CIUTAT DE LES ARTS I LES CIÈNCIES</p>
             </div>
             <div class="valenciafoto2">
-                <img src="./public/assets/images/galeria/valenciafoto2.jpg" alt="peñiscola" data-img-show="1">
+                <img src="/public/assets/images/galeria/valenciafoto2.jpg" alt="peñiscola" data-img-show="1">
                 <p>PEÑISCOLA</p>
             </div>
             <div class="valenciafoto3">
-                <img src="./public/assets/images/galeria/valenciafoto3.jpg" alt="parque nacional de la albufera" data-img-show="2">
+                <img src="/public/assets/images/galeria/valenciafoto3.jpg" alt="parque nacional de la albufera" data-img-show="2">
                 <p>PARQUE NACIONAL DE LA ALBUFERA</p>
             </div>
         </div>
@@ -21,15 +21,15 @@ export const templateValencia = () => {
     <div id="vlc2" class="valenciacont">
         <div class="photo">
             <div class="valenciafoto4">
-                <img src="./public/assets/images/galeria/valenciafoto4.jpg" alt="peñiscola" data-img-show="3">
+                <img src="/public/assets/images/galeria/valenciafoto4.jpg" alt="peñiscola" data-img-show="3">
                 <p>PEÑISCOLA</p>
             </div>
             <div class="valenciafoto5">
-                <img src="./public/assets/images/galeria/valenciafoto5.jpg" alt="peñiscola" data-img-show="4">
+                <img src="/public/assets/images/galeria/valenciafoto5.jpg" alt="peñiscola" data-img-show="4">
                 <p>PEÑISCOLA</p>
             </div>
             <div class="valenciafoto6">
-                <img src="./public/assets/images/galeria/valenciafoto6.jpg" alt="parque nacional de la albufera" data-img-show="5">
+                <img src="/public/assets/images/galeria/valenciafoto6.jpg" alt="parque nacional de la albufera" data-img-show="5">
                 <p>PARQUE NACIONAL DE LA ALBUFERA</p>
             </div>
         </div>
