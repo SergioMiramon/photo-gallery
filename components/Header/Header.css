@@ -51,10 +51,13 @@ header .enlaces a {
 }
 header .enlaces a:hover,
 .active {
-  opacity: 0.6;
-  transition: 0.4s all;
-  -webkit-transition: 0.4s all;
-  -moz-transition: 0.4s all;
-  -ms-transition: 0.4s all;
-  -o-transition: 0.4s all;
+  /* opacity: 0.6; */
+  transition: 0.2s all;
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -o-transition: 0.2s all;
+}
+header .enlaces img:hover{
+  content: url(/public/assets/images/all/github.png);  
 }

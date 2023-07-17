@@ -5,7 +5,7 @@ const template = () => {
     <!-- <a href="./index.html"><img src="/assets/images/all/logo.png" class="logo" alt="logo"></a> -->
         <nav>
             <ul class="enlaces">
-                <li><a href="https://github.com/SergioMiramon/photo-gallery" target="blank"><img src="/assets/images/all/github.png" class="" alt="github"></a></li>
+                <li><a href="https://github.com/SergioMiramon/photo-gallery" target="blank"><img src="/assets/images/all/githubblack.png" class="" alt="github"></a></li>
             </ul>
         </nav>
     `;
