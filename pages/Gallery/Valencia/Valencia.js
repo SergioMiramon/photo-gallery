@@ -21,15 +21,15 @@ export const templateValencia = () => {
     <div id="vlc2" class="valenciacont">
         <div class="photo">
             <div class="valenciafoto4">
-                <img src="/assets/images/galeria/valenciafoto4.jpg" alt="peñiscola" data-img-show="3">
+                <img src="/assets/images/galeria/valenciafoto4.jpeg" alt="peñiscola" data-img-show="3">
                 <p>PEÑISCOLA</p>
             </div>
             <div class="valenciafoto5">
-                <img src="/assets/images/galeria/valenciafoto5.jpg" alt="peñiscola" data-img-show="4">
+                <img src="/assets/images/galeria/valenciafoto5.jpeg" alt="peñiscola" data-img-show="4">
                 <p>PEÑISCOLA</p>
             </div>
             <div class="valenciafoto6">
-                <img src="/assets/images/galeria/valenciafoto6.jpg" alt="parque nacional de la albufera" data-img-show="5">
+                <img src="/assets/images/galeria/valenciafoto6.jpeg" alt="parque nacional de la albufera" data-img-show="5">
                 <p>PARQUE NACIONAL DE LA ALBUFERA</p>
             </div>
         </div>
@@ -37,15 +37,15 @@ export const templateValencia = () => {
     <div id="vlc3" class="valenciacont">
         <div class="photo">
             <div class="valenciafoto7">
-                <img src="/assets/images/galeria/valenciafoto7.jpg" alt="valencia" data-img-show="6">
+                <img src="/assets/images/galeria/valenciafoto7.jpeg" alt="valencia" data-img-show="6">
                 <p>VALENCIA</p>
             </div>
             <div class="valenciafoto8">
-                <img src="/assets/images/galeria/valenciafoto8.jpg" alt="peñiscola" data-img-show="7">
+                <img src="/assets/images/galeria/valenciafoto8.jpeg" alt="peñiscola" data-img-show="7">
                 <p>PEÑISCOLA</p>
             </div>
             <div class="valenciafoto9">
-                <img src="/assets/images/galeria/valenciafoto9.jpg" alt="peñiscola" data-img-show="8">
+                <img src="/assets/images/galeria/valenciafoto9.jpeg" alt="peñiscola" data-img-show="8">
                 <p>PEÑISCOLA</p>
             </div>
         </div>
