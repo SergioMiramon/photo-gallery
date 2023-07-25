@@ -13,14 +13,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-/* header .logo {
-  width: 2.3vh;
-  max-width: 750px;
-  margin-top: 0.55vh;
-  height: 2.3vh;
-  max-height: 750px;
-  margin-left: 0.75vh;
-} */
 header .enlaces {
   display: flex;
   height: 100%;
@@ -32,8 +24,9 @@ header .enlaces {
 
 .enlaces li{
   position: fixed;
+  top: 0;
   right: 0;
-  padding: .1vh;
+  padding: .3vw .3vw;
 }
 .enlaces img {
   width: 2.3vh;
@@ -48,7 +41,7 @@ header .enlaces a {
   font-family: Poppins;
   font-size: 1.5vh;
   text-decoration: transparent;
-  margin-inline-end: 10px;
+  /* margin-inline-end: 10px; */
 }
 header .enlaces a:hover,
 .active {
