@@ -61,6 +61,8 @@ export const showValencia =() =>{
     document.querySelector('#switch-barcelona').style.display = "none";
     document.querySelector('#switch-valencia').style.display = "block";
     document.querySelector('#vlc1').style.display = "block";
+    document.querySelector('#vlc2').style.display = "none";
+    document.querySelector('#vlc3').style.display = "none";
     document.querySelector('#switch-granada').style.display = "none";
 }
 

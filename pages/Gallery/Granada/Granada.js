@@ -96,6 +96,10 @@ export const showGranada =() =>{
     document.querySelector('#switch-valencia').style.display = "none";
     document.querySelector('#switch-granada').style.display = "block";
     document.querySelector('#grd1').style.display = "block";
+    document.querySelector('#grd2').style.display = "none";
+    document.querySelector('#grd3').style.display = "none";
+    document.querySelector('#grd4').style.display = "none";
+    document.querySelector('#grd5').style.display = "none";
 };
 
 export const showGrd1 = () => {

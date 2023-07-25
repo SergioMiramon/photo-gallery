@@ -51,6 +51,7 @@ export const showBarcelona =() =>{
     document.querySelector('#switch-madrid').style.display = "none";
     document.querySelector('#switch-barcelona').style.display = "block";
     document.querySelector('#bcn1').style.display = "block";
+    document.querySelector('#bcn2').style.display = "none";
     document.querySelector('#switch-valencia').style.display = "none";
     document.querySelector('#switch-granada').style.display = "none";
   };
