@@ -24,9 +24,8 @@ header .enlaces {
 
 .enlaces li{
   position: fixed;
-  top: 0;
-  right: 0;
-  padding: .3vw .3vw;
+  top: .8vh;
+  right: .8vh;
 }
 .enlaces img {
   width: 2.3vh;
