@@ -20,8 +20,9 @@
 
 .overlay_mad .slideshow_mad {
   width: 70%;
-  height: calc(100% - 4vh);
-  position: relative;
+  height: calc(100% - 2vh);
+  position: absolute;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
