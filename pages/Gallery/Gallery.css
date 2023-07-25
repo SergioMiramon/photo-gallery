@@ -133,7 +133,8 @@
 .overlay_bcn .slideshow_bcn {
   width: 70%;
   height: calc(100% - 4vh);
-  position: relative;
+  position: absolute;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,7 +203,8 @@
 .overlay_vlc .slideshow_vlc {
   width: 70%;
   height: calc(100% - 4vh);
-  position: relative;
+  position: absolute;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,7 +273,8 @@
 .overlay_grd .slideshow_grd {
   width: 70%;
   height: calc(100% - 4vh);
-  position: relative;
+  position: absolute;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
