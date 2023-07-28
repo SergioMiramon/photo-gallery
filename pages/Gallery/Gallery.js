@@ -63,10 +63,10 @@ const template = () => {
         <div class="galeria">
                 <div id="espana">
                     <h1>ESPAÑA</h1>
-                    <a href="#switch-madrid" onclick="showMadrid();"><h2 id="mad" class="rojo">Madrid</h2></a>
-                    <a href="#switch-valencia" onclick="showValencia();"><h2 id="vlc" class="blanco">Valencia</h2></a>
-                    <a href="#switch-barcelona" onclick="showBarcelona();"><h2 id="bcn" class="blanco">Barcelona</h2></a>
-                    <a href="#switch-granada" onclick="showGranada();"><h2 id="grd" class="blanco">Granada</h2></a>
+                    <a href="#switch-madrid" onclick="showMadrid();"><h2 id="mad" class="rojo">Mad</h2></a>
+                    <a href="#switch-valencia" onclick="showValencia();"><h2 id="vlc" class="blanco">Vlc</h2></a>
+                    <a href="#switch-barcelona" onclick="showBarcelona();"><h2 id="bcn" class="blanco">Bcn</h2></a>
+                    <a href="#switch-granada" onclick="showGranada();"><h2 id="grd" class="blanco">Grd</h2></a>
                 </div>
                 <div id="switches">
                     <div id="switch-madrid" class="madrid">
