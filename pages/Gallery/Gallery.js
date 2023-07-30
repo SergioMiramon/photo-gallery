@@ -267,11 +267,11 @@ export const Gallery = () => {
  
 document.addEventListener('DOMContentLoaded', function () {
     let images_mad = [
-        { img: '/assets/images/galeria/madridfoto1.jpeg' },
-        { img: '/assets/images/galeria/madridfoto2.jpeg' },
-        { img: '/assets/images/galeria/madridfoto3.jpeg' },
-        { img: '/assets/images/galeria/madridfoto4.jpeg' },
-        { img: '/assets/images/galeria/madridfoto5.jpeg' }
+        { img: '/assets/images/gallery/madridfoto1.jpg' },
+        { img: '/assets/images/gallery/madridfoto2.jpg' },
+        { img: '/assets/images/gallery/madridfoto3.jpg' },
+        { img: '/assets/images/gallery/madridfoto4.jpg' },
+        { img: '/assets/images/gallery/madridfoto5.jpg' }
     ]
     let contador_mad = 0
     const contenedor = document.querySelector('.slideshow_mad')
@@ -345,14 +345,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     let images_bcn = [
-        { img: '/assets/images/galeria/barcelonafoto1.jpeg' },
-        { img: '/assets/images/galeria/barcelonafoto2.jpeg' },
-        { img: '/assets/images/galeria/barcelonafoto3.jpeg' },
-        { img: '/assets/images/galeria/barcelonafoto4.jpeg' },
-        { img: '/assets/images/galeria/barcelonafoto5.jpeg' },
-        { img: '/assets/images/galeria/barcelonafoto6.jpeg' },
-        { img: '/assets/images/galeria/barcelonafoto7.jpeg' },
-        { img: '/assets/images/galeria/barcelonafoto8.jpeg' }
+        { img: '/assets/images/gallery/barcelonafoto1.jpg' },
+        { img: '/assets/images/gallery/barcelonafoto2.jpg' },
+        { img: '/assets/images/gallery/barcelonafoto3.jpg' },
+        { img: '/assets/images/gallery/barcelonafoto4.jpg' },
+        { img: '/assets/images/gallery/barcelonafoto5.jpg' },
+        { img: '/assets/images/gallery/barcelonafoto6.jpg' },
+        { img: '/assets/images/gallery/barcelonafoto7.jpg' },
+        { img: '/assets/images/gallery/barcelonafoto8.jpg' }
     ]
     let contador_bcn = 0
     const contenedor = document.querySelector('.slideshow_bcn')
@@ -426,15 +426,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     let images_vlc = [
-        { img: '/assets/images/galeria/valenciafoto1.jpeg' },
-        { img: '/assets/images/galeria/valenciafoto2.jpeg' },
-        { img: '/assets/images/galeria/valenciafoto3.jpeg' },
-        { img: '/assets/images/galeria/valenciafoto4.jpeg' },
-        { img: '/assets/images/galeria/valenciafoto5.jpeg' },
-        { img: '/assets/images/galeria/valenciafoto6.jpeg' },
-        { img: '/assets/images/galeria/valenciafoto7.jpeg' },
-        { img: '/assets/images/galeria/valenciafoto8.jpeg' },
-        { img: '/assets/images/galeria/valenciafoto9.jpeg' }
+        { img: '/assets/images/gallery/valenciafoto1.jpg' },
+        { img: '/assets/images/gallery/valenciafoto2.jpg' },
+        { img: '/assets/images/gallery/valenciafoto3.jpg' },
+        { img: '/assets/images/gallery/valenciafoto4.jpg' },
+        { img: '/assets/images/gallery/valenciafoto5.jpg' },
+        { img: '/assets/images/gallery/valenciafoto6.jpg' },
+        { img: '/assets/images/gallery/valenciafoto7.jpg' },
+        { img: '/assets/images/gallery/valenciafoto8.jpg' },
+        { img: '/assets/images/gallery/valenciafoto9.jpg' }
     ]
     let contador_vlc = 0
     const contenedor = document.querySelector('.slideshow_vlc')
@@ -508,21 +508,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     let images_grd = [
-        { img: '/assets/images/galeria/granadafoto1.jpeg' },
-        { img: '/assets/images/galeria/granadafoto2.jpeg' },
-        { img: '/assets/images/galeria/granadafoto3.jpeg' },
-        { img: '/assets/images/galeria/granadafoto4.jpeg' },
-        { img: '/assets/images/galeria/granadafoto5.jpeg' },
-        { img: '/assets/images/galeria/granadafoto6.jpeg' },
-        { img: '/assets/images/galeria/granadafoto7.jpeg' },
-        { img: '/assets/images/galeria/granadafoto8.jpeg' },
-        { img: '/assets/images/galeria/granadafoto9.jpeg' },
-        { img: '/assets/images/galeria/granadafoto10.jpeg' },
-        { img: '/assets/images/galeria/granadafoto11.jpeg' },
-        { img: '/assets/images/galeria/granadafoto12.jpeg' },
-        { img: '/assets/images/galeria/granadafoto13.jpeg' },
-        { img: '/assets/images/galeria/granadafoto14.jpeg' },
-        { img: '/assets/images/galeria/granadafoto15.jpeg' }
+        { img: '/assets/images/gallery/granadafoto1.jpg' },
+        { img: '/assets/images/gallery/granadafoto2.jpg' },
+        { img: '/assets/images/gallery/granadafoto3.jpg' },
+        { img: '/assets/images/gallery/granadafoto4.jpg' },
+        { img: '/assets/images/gallery/granadafoto5.jpg' },
+        { img: '/assets/images/gallery/granadafoto6.jpg' },
+        { img: '/assets/images/gallery/granadafoto7.jpg' },
+        { img: '/assets/images/gallery/granadafoto8.jpg' },
+        { img: '/assets/images/gallery/granadafoto9.jpg' },
+        { img: '/assets/images/gallery/granadafoto10.jpg' },
+        { img: '/assets/images/gallery/granadafoto11.jpg' },
+        { img: '/assets/images/gallery/granadafoto12.jpg' },
+        { img: '/assets/images/gallery/granadafoto13.jpg' },
+        { img: '/assets/images/gallery/granadafoto14.jpg' },
+        { img: '/assets/images/gallery/granadafoto15.jpg' }
     ]
     let contador_grd = 0
     const contenedor = document.querySelector('.slideshow_grd')
