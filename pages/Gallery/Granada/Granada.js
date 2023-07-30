@@ -53,15 +53,15 @@ export const templateGranada = () => {
     <div id="grd4" class="granadacont">
         <div class="photo">
         <div class="granadafoto10">
-            <img src="/assets/images/gallery/granadafoto10.jeg" alt="patio de comares" data-img-show="9">
+            <img src="/assets/images/gallery/granadafoto10.jpg" alt="patio de comares" data-img-show="9">
             <p>PATIO DE COMARES</p>
         </div>
         <div class="granadafoto11">
-            <img src="/assets/images/gallery/granadafoto11.jeg" alt="generalife" data-img-show="10">
+            <img src="/assets/images/gallery/granadafoto11.jpg" alt="generalife" data-img-show="10">
             <p>GENERALIFE</p>
         </div>
         <div class="granadafoto12">
-            <img src="/assets/images/gallery/granadafoto12.jeg" alt="iglesia de san nicolás" data-img-show="11">
+            <img src="/assets/images/gallery/granadafoto12.jpg" alt="iglesia de san nicolás" data-img-show="11">
             <p>IGLESIA DE SAN NICOLÁS</p>
         </div>
         </div>
@@ -69,15 +69,15 @@ export const templateGranada = () => {
     <div id="grd5" class="granadacont">
         <div class="photo">
         <div class="granadafoto13">
-            <img src="/assets/images/gallery/granadafoto13.jeg" alt="iglesia de san nicolás" data-img-show="12">
+            <img src="/assets/images/gallery/granadafoto13.jpg" alt="iglesia de san nicolás" data-img-show="12">
             <p>ALHAMBRA</p>
         </div>
         <div class="granadafoto14">
-            <img src="/assets/images/gallery/granadafoto14.jeg" alt="alhambra" data-img-show="13">
+            <img src="/assets/images/gallery/granadafoto14.jpg" alt="alhambra" data-img-show="13">
             <p>IGLESIA DE SAN NICOLÁS</p>
         </div>
         <div class="granadafoto15">
-            <img src="/assets/images/gallery/granadafoto15.jeg" alt="alhambra" data-img-show="14">
+            <img src="/assets/images/gallery/granadafoto15.jpg" alt="alhambra" data-img-show="14">
             <p>ALHAMBRA</p>
         </div>
         </div>
