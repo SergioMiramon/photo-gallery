@@ -5,23 +5,23 @@ export const templateMadrid = () => {
     <div id="mad1" class="madridcont">
     <div class="photo">
         <div class="madridfoto1">
-            <img src="/assets/images/galeria/madridfoto1.jpeg" alt="coslada" data-img-show="0">
+            <img src="/assets/images/gallery/madridfoto1.jpg" alt="coslada" data-img-show="0">
             <p>COSLADA</p>
         </div>
         <div class="madridfoto2">
-            <img src="/assets/images/galeria/madridfoto2.jpeg" alt="coslada" data-img-show="1">
+            <img src="/assets/images/gallery/madridfoto2.jpg" alt="coslada" data-img-show="1">
             <p>COSLADA</p>
         </div>
         <div class="madridfoto3">
-            <img src="/assets/images/galeria/madridfoto3.jpeg" alt="coslada" data-img-show="2">
+            <img src="/assets/images/gallery/madridfoto3.jpg" alt="coslada" data-img-show="2">
             <p>COSLADA</p>
         </div>
         <div class="madridfoto4">
-            <img src="/assets/images/galeria/madridfoto4.jpeg" alt="coslada" data-img-show="3">
+            <img src="/assets/images/gallery/madridfoto4.jpg" alt="coslada" data-img-show="3">
             <p>COSLADA</p>
         </div>
         <div class="madridfoto5">
-            <img src="/assets/images/galeria/madridfoto5.jpeg" alt="coslada" data-img-show="4">
+            <img src="/assets/images/gallery/madridfoto5.jpg" alt="coslada" data-img-show="4">
             <p>COSLADA</p>
         </div>
     </div>
